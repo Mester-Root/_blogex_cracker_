@@ -4,7 +4,7 @@ def method():
     import os,time
     method = input ('''
 \n\033[36m
-[📌] method for cracker blogex\033[31m [blogex.ir] \033[92m:>
+[馃搶] method for cracker blogex\033[31m [blogex.ir] \033[92m:>
 
 \033[31m[*] \033[20;37mfor UTF-8 =  \033[93m [1]
 
@@ -18,7 +18,7 @@ def method():
         os.system("python blogx.py")
     else:
         time.sleep(1)
-        print ("\n\033[31m[!] > \033[35mNOT FOUND NUMBER FOR METHOD \033[20;37m| try again [♻️]")
+        print ("\n\033[31m[!] > \033[35mNOT FOUND NUMBER FOR METHOD \033[20;37m| try again [鈾伙笍]")
         time.sleep(3)
         method()
 method()
