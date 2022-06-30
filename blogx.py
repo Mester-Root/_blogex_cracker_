@@ -80,7 +80,7 @@ def login():
         time.sleep(1)
         login()
     time.sleep(1)
-    import password.py
+    from pas import password
     password.password(user)
     ps = input ('\n\033[31m[?] \033[93menter your passwordlist \033[35m[name.txt]\033[36m [#] > \033[20;37m')
     time.sleep(1)
