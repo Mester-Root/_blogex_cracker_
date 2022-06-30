@@ -113,7 +113,7 @@ def sent():
             with open('info.txt', 'w') as tr:
                 tr.write('username ~> '+user+' password ~>' + _test_)
                 print('\n\033[31m[*]\033[36m] info target saved in \033[93m<info.txt>')
-                time.sleep(5)
+                time.sleep(999)
                 sys.exit()
 #________________ the end _______________
 _NAME_ = '_MAIN_'
