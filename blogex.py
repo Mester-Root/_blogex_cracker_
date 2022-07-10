@@ -70,7 +70,12 @@ def login():
         print ('''\n\033[31m[!] \033[35mplz enter target don't [http]''')
         time.sleep(1)
         login()
-    url = requests.get(f'http://{user}.blogex.ir')
+    try:
+	url = requests.get(f'http://{user}.blogex.ir')
+    except:
+	print('\n\033[31m[!] \033[35mserver offline')
+	time.sleep(1)
+	login()
     time.sleep(1)
     if url.status_code == 200:
         print (f"\n\n\033[31m[*] \033[36m @{user} FOUND\n\n")
